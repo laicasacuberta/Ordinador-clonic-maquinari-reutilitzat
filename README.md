@@ -28,7 +28,7 @@ Pel que fa a l'utillatge, es prepara un joc de tornavisos de precisió amb punta
 
 <p align="center">
   <img src="img/Foto_1_espai_treball.jpeg" alt="L'espai de treball" width="45%">
-  <img src="img/02_seguridad_esd.jpeg" alt="Seguretat ESD" width="45%">
+  <img src="img/Foto_2_Knolling.jpg" alt="Knolling" width="45%">
 </p>
 
 ## 3. Protocol de Neteja i Manteniment Preventiu dels Components
@@ -42,6 +42,16 @@ El següent element crític s'identifica com el sistema de refrigeració, compos
 Es separen ambdues peces desmuntant els clips plàstics.
 
 Les aspes del ventilador es netegen una a una amb un bastonet de cotó impregnat en alcohol isopropílic per eliminar la pols adherida que afegeix pes de desequilibri a l'eix. El bloc metàl·lic d'alumini es bufa com a primera mesura amb aire comprimit o es renta per eliminar la brutícia dels canals interns; en cas de rentar-lo, s'ha de garantir un assecat absolut abans de tornar-lo a ajuntar amb el motor elèctric. Finalment, es netegen els connectors de dades i potència SATA de l'SSD, l'HDD i el lector de DVD amb un pas ràpid d'alcohol isopropílic per minimitzar la resistència elèctrica en el bus de comunicació.
+
+<p align="center">
+  <img src="img/Foto_3_CPU_brut.jpeg" alt="CPU abans de la neteja" width="45%">
+  <img src="img/Foto_3_CPU_net.jpeg" alt="CPU després de la neteja" width="45%">
+</p>
+
+<p align="center">
+  <img src="img/Foto_4_Dissipador_brut.jpeg" alt="Dissipador abans de la neteja" width="45%">
+  <img src="img/Foto_4_Dissipador_net.jpeg" alt="Dissipador després de la neteja" width="45%">
+</p>
 
 **4. Protocol de Verificació Prèvia i Prova a l'Aire (POST Extern)**
 
@@ -61,6 +71,12 @@ En rebre el pols, es verifica de forma immediata que el ventilador de la CPU com
 
 En acabar la comprovació, es torna a fer un pont curt als mateixos pins per apagar el sistema, es desconnecta la font del corrent elèctric i es dóna llum verda de compatibilitat elèctrica per al conjunt base.
 
+<p align="center">
+  <img src="img/Foto_7_Muntatge_nucli_base.jpeg" alt="Muntatge del nucli" width="45%">
+  <img src="img/Foto_8_Truc_tornavís_POST.jpeg" alt="Activació i desactivació del POST" width="45%">
+</p>
+
+
 ## 5. Protocol Professional d'Auditoria, Backup i Sanitització en Estació de Servei
 
 Mentre el nucli base del clònic està certificat en el banc de proves, s'activa de forma paral·lela el protocol de tractament de les unitats d'emmagatzematge.
@@ -78,6 +94,10 @@ Esborrat Seguro i Formatat de Baix Nivell (Sanitització): Es destrueix qualsevo
 Eines utilitzades: Eina de Gestió de Discos de Windows / Diskpart (per fer neteges estructurals de capçaleres mitjançant la comanda clean) o GParted (en entorns Linux de taller per eliminar per complet antigues taules de particions MBR o GPT). Finalment, s'aplica l'eina HDD Low Level Format Tool en cas de requerir un esborrat sector per sector, definint posteriorment l'SSD Kingston com a "espai sense assignar" (net per a l'instal·lador) i l'HDD Seagate com una unitat buida sota el sistema de fitxers NTFS o ext4.
 
 Un cop finalitzat aquest procés, es desmunten de forma segura els discos de l'ordinador de taller i es preparen, totalment nets de dades i de programari maliciós, per a la fase d'integració física.
+
+<p align="center">
+  <img src="img/Foto_5_Connexió_kingston.jpeg" alt="Comprovació del disc" width="45%">
+</p>
 
 ## 6. Procediment de Muntatge Definitiu al Chassis Pas a Pas
 
