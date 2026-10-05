@@ -27,8 +27,8 @@ Com a mesura de seguretat fonamental, la font d'alimentació i qualsevol eina el
 Pel que fa a l'utillatge, es prepara un joc de tornavisos de precisió amb punta d'estrella o cruciforme de mida PH2, que és l'estàndard per a la cargolaria informàtica general. Com a consumibles tècnics d'adequació, es disposa d'un pot d'alcohol isopropílic com a mínim del 90%, el qual té la propietat d'evaporar-se instantàniament sense deixar cap mena de residu humit conductor. També es preparen draps de microfibra o mocadors de cel·lulosa que no desprenguin borrissol, un pinzell de truges suaus i sintètiques per a desplaçar la pols, i un tub de pasta tèrmica nova d'alta conductivitat tèrmica per a la correcta transmissió de calor del processador.
 
 <p align="center">
-  <img src="Foto 1 L'espai de treball.jpg" alt="L'espai de treball" width="45%">
-  <img src="img/02_seguridad_esd.jpg" alt="Seguretat ESD" width="45%">
+  <img src="img/Foto_1_espai_treball.jpeg" alt="L'espai de treball" width="45%">
+  <img src="img/02_seguridad_esd.jpeg" alt="Seguretat ESD" width="45%">
 </p>
 
 ## 3. Protocol de Neteja i Manteniment Preventiu dels Components
