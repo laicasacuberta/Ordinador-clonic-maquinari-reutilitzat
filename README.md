@@ -95,13 +95,20 @@ Eines utilitzades: Eina de Gestió de Discos de Windows / Diskpart (per fer nete
 
 Un cop finalitzat aquest procés, es desmunten de forma segura els discos de l'ordinador de taller i es preparen, totalment nets de dades i de programari maliciós, per a la fase d'integració física.
 
+En l'analisi del disc Kingston 2.5" amb el progama CrystalDiskInfo, aquest indica que es "Bó". L'analisi del disc Seagate apareix "Risc", per la qual cosa es descarta la seva utilització.
+
 <p align="center">
   <img src="img/Foto_5_Connexió_kingston.jpeg" alt="Comprovació del disc" width="45%">
+  <img src="img/Foto_6_info_disc.jpg" alt="Comprovació del disc" width="45%">
 </p>
 
 ## 6. Procediment de Muntatge Definitiu al Chassis Pas a Pas
 
 Un cop validat el nucli i els discos durs han estat correctament tractats i formatats a l'estació de servei, es procedeix a la integració mecànica de tots els elements dins de la caixa GDX System.
+
+<p align="center">
+  <img src="img/Foto_9_Preparació_caixa.jpeg" alt="La caixa GDX System" width="45%">
+</p>
 
 Fase A: Preparació i Fixació de la Placa al Chassis
 
@@ -127,6 +134,10 @@ Seguidament, s'agafa el disc mecànic HDD Seagate de 3.5 polzades i es col·loca
 
 Un cop col·locades les dues unitats, es torna a encaixar a pressió el frontal de plàstic a l'estructura de la torre.
 
+<p align="center">
+  <img src="img/Foto_10_Integració_unitats.jpg" alt="Discs col·locats" width="45%">
+</p>
+
 Fase C: Connexió del Cablejat i Panell Frontal
 
 La darrera fase del muntatge consisteix a connectar el mapa de cables per donar energia i comunicació final al sistema:
@@ -144,6 +155,10 @@ El cable de l'àudio integrat (HD AUDIO) es connecta al port F_AUDIO situat a la
 Els cables de comunicació USB es punxen al port de pins F_USB1.
 
 Finalment, els pins ultra prims del tauler de control (F_PANEL) es distribueixen minuciosament a la cantonada inferior dreta: el cable del botó d'encesa (POWER SW) es col·loca als pins del fons superiors, el botó de reinici (RESET SW) a la fila inferior dreta, i es connecten els indicadors LED (HDD LED i POWER LED) respectant la polaritat de manera que el cable de color (positiu) quedi fixat al pin esquerre indicat en la serigrafia de la placa.
+
+<p align="center">
+  <img src="img/Foto_11_Cable_management.jpg" alt="Ordinador muntat" width="45%">
+</p>
 
 ## 7. Control de Qualitat Final i Posada en Marxa de l'Equip
 
